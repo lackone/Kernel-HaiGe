@@ -1,6 +1,6 @@
 ### 1、为什么要用双机调试？
 
-![](..\images\01\微信截图_20240205163803.png)
+![](../images/01/微信截图_20240205163803.png)
 
 **在本机安装 windbg**
 
@@ -28,9 +28,9 @@ multi(0)disk(0)rdisk(0)partition(1)\WINDOWS="Microsoft Windows XP Professional[d
 
 ### 4、为XP虚拟机添加一个串口
 
-![](..\images\01\微信截图_20240205165049.png)
+![](../images/01/微信截图_20240205165049.png)
 
-![](..\images\01\微信截图_20240205165314.png)
+![](../images/01/微信截图_20240205165314.png)
 
 
 
@@ -38,5 +38,5 @@ multi(0)disk(0)rdisk(0)partition(1)\WINDOWS="Microsoft Windows XP Professional[d
 
 -b -k com:port=\\\\.\pipe\com_1,pipe
 
-![](..\images\01\微信截图_20240205165831.png)
+![](../images/01/微信截图_20240205165831.png)
 
