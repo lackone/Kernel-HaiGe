@@ -36,3 +36,7 @@ multi(0)disk(0)rdisk(0)partition(1)\WINDOWS="Microsoft Windows XP Professional[d
 
 ### 4、修改 windbg  运行参数，指向虚拟机
 
+-b -k com:port=\\\\.\pipe\com_1,pipe
+
+![](I:\cpp_projects\Kernel-HaiGe\notes\images\01\微信截图_20240205165831.png)
+
