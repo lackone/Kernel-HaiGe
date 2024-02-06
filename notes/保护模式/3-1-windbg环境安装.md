@@ -45,5 +45,7 @@ multi(0)disk(0)rdisk(0)partition(1)\WINDOWS="Microsoft Windows XP Professional[d
 ### windbg指令
 
 r	查看寄存器
+
 dd	以四字节为一组读取并显示数据
+
 dq	以八字节为一组读取并显示数据
