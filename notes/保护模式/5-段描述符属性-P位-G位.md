@@ -21,8 +21,11 @@ P = 0 段描述符无效
 ### 3、段描述符与段寄存器的对应关系	
 
 WORD  Selector;	    //16位
+
 WORD  Atrribute;	  //16位
+
 DWORD Base;		//32位
+
 DWORD Limit;		//32位      FFFFFFFF	
 
 
@@ -38,8 +41,11 @@ G = 0 Limit的高3位补000
 **段描述符64位怎么变成80位的**，
 
 WORD  Selector;	    //16位   X
+
 WORD  Atrribute;	  //16位   8-23 高四字节
+
 DWORD Base;		//32位   Base 31:24 + Base 23:16 + Base 15:00
+
 DWORD Limit;		//32位   Limit 19:16 + Limit 15:00  = 20位 剩下的12位由G位决定，G为0，则补0，G为1，则补1
 
 
@@ -51,6 +57,7 @@ DWORD Limit;		//32位   Limit 19:16 + Limit 15:00  = 20位 剩下的12位由G位
 1、先查看GDT表的地址
 
 r gdtr      //读取gdt表的起始位置
+
 r gdtl      //读取gdt表的大小
 
 2、dq GDT 表的地址
